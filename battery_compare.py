@@ -5,8 +5,8 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 # ================= FILE PATHS =================
-LFP_PATH = r"F:\ThinkClock\Lico_analysis\LFP-1.csv"
-GAYAM_PATH = r"C:\Users\redde\OneDrive\Desktop\ThinkClock\xcel\single_cell_charge_discharge.csv"
+LFP_PATH = "LFP-1.csv"
+GAYAM_PATH = "single_cell_charge_discharge.csv"
 
 DV = 0.005
 ICA_RANGE = [-150,150]
@@ -237,3 +237,4 @@ server = app.server
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
+
